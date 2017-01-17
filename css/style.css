@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#text-container {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#break-word-text-wrapper {
+    margin: 20px 0;
+    background-color: #b9ff80;
+    overflow-wrap: break-word;
+}
+
+#no-break-word-text-wrapper {
+    background-color: #ffbaa4;
+}
